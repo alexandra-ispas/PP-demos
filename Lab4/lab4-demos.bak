@@ -1,0 +1,18 @@
+#lang racket
+
+
+
+(define a 3)
+(define b 2)
+;; a = 3, b = 2
+
+(define (func a b)
+
+    ;a = 5
+    ;b = 6
+    
+    (let [(a 7)]
+      ; a = , b = 6
+      (+ a b)))
+
+(func 5 6)
