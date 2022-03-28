@@ -11,7 +11,7 @@
     ;b = 6
     
     (let [(a 7)]
-      ; a = , b = 6
+      ; a = 7 , b = 6
       (+ a b)))
 
 (display "(func 5 6) = ")
@@ -26,10 +26,10 @@
 
 ;-------------------------- let
 (display "rezultatul let-ului este: ")
-(let [(a 12)
-      (b 3)]
-  (- a 8)
-  (+ b 1)
+(let [(a 12) ;; a = 12
+      (b 3)];; b = 3
+  (- a 8)    
+  (+ b 1)   
   (+ a b))
 ;-------------------------- let*
 (display "rezultatul lui let* este: ")
