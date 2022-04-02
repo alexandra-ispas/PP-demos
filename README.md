@@ -1,5 +1,5 @@
 # PP-demos
-## * Racket Labs:
+* ## Racket Labs:
 ### Lab 1 - Racket: Intro
    * [PPT](https://docs.google.com/presentation/d/1eVfYNzw3N67MEa8NRvd48gjEufkWKVCy-EnhOk1m0Ig/edit#slide=id.p)  
 ### Lab 2 - Racket: Recursivitate
