@@ -1,8 +1,8 @@
 # PP-demos
 ## Racket Labs:
-### Lab 1 - Racket: Intro
+* ### Lab 1 - Racket: Intro
    * [PPT](https://docs.google.com/presentation/d/1eVfYNzw3N67MEa8NRvd48gjEufkWKVCy-EnhOk1m0Ig/edit#slide=id.p)  
-*### Lab 2 - Racket: Recursivitate
+* ### Lab 2 - Racket: Recursivitate
    * [PPT](https://docs.google.com/presentation/d/175r0qmaZdpedrtcn3v99xxCW_14b92aAzZgEZXvL3fA/edit#slide=id.p)  
 * ### Lab 3 - Racket: Funcții ca valori. Funcționale
    * [PPT](https://docs.google.com/presentation/d/1F-Bxz_M49AqFsST2E3LQwwtvthnY8NxSxUPpIqwm1o8/edit#slide=id.p)  
