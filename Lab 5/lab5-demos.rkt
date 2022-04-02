@@ -1,13 +1,20 @@
 #lang racket/gui
 ;; --------------------------------------
 (display "evaluare aplicativă vs. evaluare leneșă\n")
+;(λx.λy.(x + y) 1 (λz.(z + 2) 3))
+
+(define func
+  (λ(x)
+    (λ(y)
+      (+ x y))))
+
+((func 1) ((λ(z) (+ z 2)) 3))
 
 ((λ(x)
-   ((λ(y)
-      (+ x y)) 1)) 
- 
- ((λ(z)
-    (+ z 2)) 3))
+  ((λ(y)
+    (+ x y)) 1)) ((λ(z) (+ z 2)) 3))
+
+
 
 ;; --------------------------------------
 (display "\ninchideri funcționale\n")
@@ -18,7 +25,8 @@
       (+ x y))))
 
 
-
+(sum1 2 3)
+((sum1 2 3))
 ;; --------------------------------------
 (display "\npromisiuni\n")
 
@@ -29,7 +37,6 @@
 
 (sum2 1 2)          ;; promisiunea
 (force (sum2 1 2))  ;; se forțează evaluarea promisiunii
-
 
 ;; --------------------------------------
 (display "\nfluxuri: stream-take din laborator vs. cel din Racket:\n")
