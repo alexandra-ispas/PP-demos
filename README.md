@@ -1,8 +1,8 @@
 # PP-demos
-** Racket Laboratories:
-&nbsp; Lab 4
-&nbsp; Lab 5
+## Racket Laboratories:
+[###Lab 4](https://github.com/alexandra-ispas/PP-demos/tree/main/Lab%204)
+[###Lab 5](https://github.com/alexandra-ispas/PP-demos/tree/main/Lab%205)
 
-** Haskell Laboratories
-&nbsp; Lab 6
-&nbsp; Lab 7
+## Haskell Laboratories:
+###Lab 6
+###Lab 7
