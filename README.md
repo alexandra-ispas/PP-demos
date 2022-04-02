@@ -14,5 +14,7 @@
    * [demo](https://github.com/alexandra-ispas/PP-demos/tree/main/Lab%205)
 
 ## Haskell Labs:
-### Lab 6
+### Lab 6 - Haskell: Intro
+  * [PPT](https://docs.google.com/presentation/d/12-LK47FasXxlrf7BpvGKD-c8rW3uHarmdKunIM4ADK4/edit#slide=id.g120bfa48191_0_165)
+  * [demo](https://github.com/alexandra-ispas/PP-demos/blob/main/Lab%206/lab6.hs)
 ### Lab 7
