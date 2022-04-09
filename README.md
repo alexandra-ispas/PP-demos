@@ -17,4 +17,5 @@
 * ### Lab 6 - Haskell: Intro
   * [PPT](https://docs.google.com/presentation/d/12-LK47FasXxlrf7BpvGKD-c8rW3uHarmdKunIM4ADK4/edit#slide=id.g120bfa48191_0_165)
   * [demo](https://github.com/alexandra-ispas/PP-demos/blob/main/Lab%206/lab6.hs)
-* ### Lab 7
+* ### Lab 7 - Haskell: Evaluare leneșă, programare point-free și list comprehensions
+  * [PPT](https://docs.google.com/presentation/d/1wf4EukwaOYw0E5Jjd5jcj6_PZxBKpQVBHEAAMn3bPj4/edit#slide=id.p)
