@@ -43,7 +43,9 @@
 
 
 (define (make-naturals k)
-  (stream-cons k (make-naturals (add1 k))))
+  (if (< k 12)
+      (stream-cons k (make-naturals (add1 k)))
+      empty-stream))
 
 
 (define naturals-stream (make-naturals 0))
