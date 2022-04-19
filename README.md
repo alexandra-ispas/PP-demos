@@ -19,3 +19,7 @@
   * [demo](https://github.com/alexandra-ispas/PP-demos/blob/main/Lab%206/lab6.hs)
 * ### Lab 7 - Haskell: Evaluare leneșă, programare point-free și list comprehensions
   * [PPT](https://docs.google.com/presentation/d/1wf4EukwaOYw0E5Jjd5jcj6_PZxBKpQVBHEAAMn3bPj4/edit#slide=id.p)
+  * [demo](https://github.com/alexandra-ispas/PP-demos/blob/main/Lab%207/lab7-demo.hs)
+* ### Lab 8 - Haskell: Tipuri de date utilizator
+  * [PPT](https://docs.google.com/presentation/d/1giukAEEpEsNOhFLjc0LrKZgpA46jL9-k7vvOK5rTVQc/edit#slide=id.p)
+  * [demo]()
