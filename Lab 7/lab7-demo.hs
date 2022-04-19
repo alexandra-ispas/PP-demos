@@ -38,6 +38,17 @@ sum2 = foldl (+) 0
 l1 = map (\x->2 *x + 1)
 
 -- fară lambda
-l2 = map ((*2).(+1))
+l2 = map ((+1).(*2))
 
-concatMap (\x->[x+1]) [1, 2, 3]
+l3 = concatMap (\x->[x+1]) [1, 2, 3]
+
+{-
+    f x = x
+    f head
+    func = f $ head
+    func [1, 2, 3]
+-}
+
+
+
+--------------------:sprint
