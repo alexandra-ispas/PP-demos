@@ -22,4 +22,4 @@
   * [demo](https://github.com/alexandra-ispas/PP-demos/blob/main/Lab%207/lab7-demo.hs)
 * ### Lab 8 - Haskell: Tipuri de date utilizator
   * [PPT](https://docs.google.com/presentation/d/1giukAEEpEsNOhFLjc0LrKZgpA46jL9-k7vvOK5rTVQc/edit#slide=id.p)
-  * [demo]()
+  * [demo](https://github.com/alexandra-ispas/PP-demos/blob/main/Lab%208/demo.hs)
