@@ -13,7 +13,7 @@ agePrint :: Age -> IO()
 agePrint x = print x
 
 namePrint :: Name -> IO()
-namePrint (nume, prenume) = mapM_ print ["numele este: ", nume, "prenumele:", prenume]
+namePrint n@(nume, prenume) = mapM_ print ["numele este: ", nume, "prenumele:", prenume]
 
 ---------------------------------------------- tipuri enumerate
 

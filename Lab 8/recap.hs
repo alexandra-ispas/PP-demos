@@ -9,7 +9,7 @@ import Data.Char
     $, pattern-matching 
 -}
 
---myTake ::
+myTake :: Int -> [a] -> [a]
 myTake n l = undefined
 
 
@@ -24,22 +24,15 @@ g = id $ f
 -}
 
 
-
-
--- r1 = \x -> x ** 2 $ 2
-
-
-
-
 {-
     Scrieți un list comprehension în Haskell care reprezintă mulțimea (așadar fără 
-    duplicate) tuturor tripletelor pitagoreice de numere naturale de maxim 3 cifre.
+    duplicate) tuturor tripletelor pitagorice de numere naturale de maxim 3 cifre.
 
     Obs: Numerele a, b, c formează un triplet pitagoric dacă pot fi laturile unui triunghi 
     dreptunghic (a^2 + b^2 = c^2).
 -}
 
-triplete = [[x, y, z] | x <- [1..99], y <- [1 .. 99], let z = x ** 2 + y ** 2]
+triplete = [[x, y, z] | x <- [1..99], y <- [x .. 99], let z = x ** 2 + y ** 2, x > 12]
 
 
 
