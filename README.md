@@ -25,5 +25,5 @@
   * [demo](https://github.com/alexandra-ispas/PP-demos/blob/main/Lab%208/demo.hs)
 * ### Lab 9 - Haskell: Polimorfism și clase
   * [PPT](https://docs.google.com/presentation/d/1SSlpgLiUuc0a27z1afnw70e5Pk9mqqxqYJNXQn1kv1E/edit?usp=sharing)
-  * [demo]()
+  * [demo](https://github.com/alexandra-ispas/PP-demos/blob/main/Lab%209/demo.hs)
 
