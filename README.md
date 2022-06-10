@@ -26,4 +26,6 @@
 * ### Lab 9 - Haskell: Polimorfism și clase
   * [PPT](https://docs.google.com/presentation/d/1SSlpgLiUuc0a27z1afnw70e5Pk9mqqxqYJNXQn1kv1E/edit?usp=sharing)
   * [demo](https://github.com/alexandra-ispas/PP-demos/blob/main/Lab%209/demo.hs)
-
+* ### Lab 10 - Prolog: Introducere
+  * [PPT](https://docs.google.com/presentation/d/12frKPV0V3uqW5Np0bf89ZJCoZgcPaV-CfCPHdAiYd2o/edit#slide=id.g1295d7160d6_0_20)
+  * [demo](https://github.com/alexandra-ispas/PP-demos/blob/main/Lab%2010/demo.pl)
