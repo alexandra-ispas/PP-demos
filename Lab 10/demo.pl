@@ -12,10 +12,7 @@ parinte(dragos, maria).
 parinte(tudor, dragos).
 
 
-nonRelated(X, Y):- om(X), /*!, */ om(Y), parinte(X, P1), \+ parinte(Y, P1), Y \= P1 /*, !*/.
-
-mama(X, Y):- fail.
-tata(X, Y):- fail.
+nonRelated(X, Y):- om(X), !, om(Y), parinte(X, P1), \+ parinte(Y, P1), Y \= P1.
 
 
 % unificare
@@ -23,12 +20,11 @@ tata(X, Y):- fail.
 
 
 % functie pentru a calcula lungimea unei liste
-% lungime(+Lista, -Lungime)
+% lungime(+Lista, -Lungime)X
 % +Lista este input
 % -Lungime este output
-
 lungime([], 0).
-lungime([ _ | L], Len):- lungime(L, Len1), Len is Len1 + 1.
+lungime([_ | Rest], Len) :- lungime(Rest, Len1), Len is Len1 + 1.
 
 /* generare de solutii
 
@@ -44,10 +40,8 @@ tuple(X+Y) :- X @=< Y, !; X =< Y.
     my_member(+X, +L)
     sum_list(+L, -Sum)
 */
-
-my_member(_, []):- fail.
-my_member(X, [X | _]).
-my_member(X, [_ | R]):- my_member(X, R). % cut ?
+my_member(_, []):- false.
+my_member(X, [H | List]):- X == H, !; my_member(X, List), !.
 
 sum_list([], 0).
-sum_list([X | R], S) :- sum_list(R, S1), S is S1 + X.
+sum_list([H | List], Sum):- sum_list(List, Sum1), Sum is H + Sum1.
